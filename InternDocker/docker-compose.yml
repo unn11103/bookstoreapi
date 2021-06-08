@@ -23,7 +23,7 @@ services:
       ME_CONFIG_MONGODB_ADMINPASSWORD: example  
 
   web :
-    image: interndocker
+    image: unn11103/interndocker
     ports: 
       - "5000:80"
       - "44348:443"
