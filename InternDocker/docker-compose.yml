@@ -24,7 +24,6 @@ services:
 
   web :
     image: interndocker
-    build: .
     ports: 
       - "5000:80"
       - "44348:443"
